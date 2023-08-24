@@ -15,7 +15,7 @@
                     BS Information Technology • Web Developer • Project Manager • Graphic Artist
                 </div>
                 <div class="find-out">Find out more!</div>
-                <a href="about-me.html" class="about-link"><button type="button" class="button">About Me</button></a>
+                <a href="/aboutus" class="about-link"><button type="button" class="button">About Me</button></a>
             </div>
             <img class="user" src="{% static 'img/svg/firmware.svg' %}">
         </div>
@@ -28,7 +28,7 @@
             </div>
             <div class="services-context">
                 <i class='bx bxs-quote-alt-left bx-lg'></i>
-                With my capacity to handle a number of languages and frameworks, I am able to provide and much likely to
+                With my capacity to handle a certain number of languages and frameworks, I am able to provide and much likely to
                 construct a full-stack website but limited to the given timeline. I am also well-experienced when handling group
                 project documentation and production of source code for each projects.
             </div>
@@ -43,11 +43,13 @@
         <div class="section-content">
             <img class="section-image" src="{% static 'img/author/programming.jpg' %}" alt="">
             <div class="section-text-content">
-                <div class="content-title">Programming Projects </div>
-                <p class="content-description">
-                    Programming projects that are finished and deployed. These are compilation of both academic and
-                    personal projects that were made during my days as an IT student.
-                </p>
+                <div class="section-content-grp">
+                    <div class="content-title">Programming Projects </div>
+                    <p class="content-description">
+                        Programming projects that are finished and deployed. These are compilation of both academic and
+                        personal projects that were made during my days as an IT student.
+                    </p>
+                </div>
                 <div class="button-container">
                     <a href="programming.html">
                         <button class="button">
@@ -67,12 +69,14 @@
         <div class="section-content" id="dig-art">
             <img class="section-image" src="{% static 'img/art/digital-art.jpg' %}" alt="">
             <div class="section-text-content">
-                <div class="content-title">Graphic Illustration Artworks </div>
-                <p class="content-description">
-                    My world in its artistic realm. See my personal collections of existing graphical illustrations and
-                    artworks that have been done for
-                    the past years.
-                </p>
+                <div class="section-content-grp"> 
+                    <div class="content-title">Graphic Illustration Artworks </div>
+                    <p class="content-description">
+                        My world in its artistic realm. See my personal collections of existing graphical illustrations and
+                        artworks that have been done for
+                        the past years.
+                    </p>
+                </div>
                 <div class="button-container">
                     
                     <a href="elf-category.html">
@@ -126,6 +130,23 @@
         </div>
 
 
+    </section>
+
+    <section class="contact-form">
+        <div class="contact-form-header">Contact Form</div>
+        <form action="" method="POST" class="contact-form-grp">
+            {% csrf_token %}
+            <fieldset class="form-fields">
+                <label for="">Title of subject:</label>
+                <input class="inp" type="text" name="name">
+                <label for="">Email address:</label>
+                <input class="inp" type="email" name="email">
+                <label for="">Enter message:</label>
+                <textarea class="inp" name="message" id=""></textarea>
+                <button class="sbmt" type="submit">Send <i class='bx bxs-send bx-sm'></i></button>
+    
+            </fieldset>
+        </form>
     </section>
 
     </script>

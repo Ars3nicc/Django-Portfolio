@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/nav.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/footer.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +17,27 @@
         rel="stylesheet">
     <title>My Portfolio</title>
 </head>
+<style>
+    /* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ee5007; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5d12; 
+}
+</style>
 <nav id="navbar">
     <div class="wrapper">
         <div class="logo"><a href="#">My Portfolio</a></div>
@@ -25,7 +46,7 @@
         <ul class="nav-links">
             <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
             <li><a href="/">Home</a></li>
-            <li><a href="commision.html">Commission</a></li>
+            <li><a href="/commission">Commission</a></li>
             <!-- <li><a href="ojt.html">OJT Experience</a></li> -->
             <li>
                 <a href="#" class="desktop-item">Projects</a>
@@ -49,20 +70,7 @@
     {% endblock content %}
 
 </body>
-<script>
-    window.onscroll = function() {myFunction()};
-    
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-    </script>
+
 <footer>
     <p>Hey! Connect with me!</p>
     <p>@lafranzz | @franzmanriquePH</p>

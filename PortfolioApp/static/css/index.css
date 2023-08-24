@@ -28,6 +28,11 @@ span {
 .white {
   color: #fff5e1;
 }
+.user {
+  height: 500px;
+  width: auto;
+  box-shadow: 30px 40px 0px 0px #ee5007;
+}
 
 .button {
   background-color: #ee5007;
@@ -107,9 +112,6 @@ span {
   border-radius: 100%;
 }
 
-.user {
-  box-shadow: 30px 40px 0px 0px #ee5007;
-}
 
 .about-content {
   width: 600px;
@@ -174,14 +176,17 @@ span {
 
 .content-title {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 3rem;
 }
-
+.section-content-grp{
+  line-height: 30px;
+}
 .content-description {
   padding-top: 20px;
   width: 90%;
   text-align: justify;
   color: #fcfc;
+  line-height: 20px;
 }
 
 .button-container {
@@ -396,6 +401,46 @@ span {
     font-style: italic;
     font-size: 1.2rem;
   }
+
+.contact-form{
+  padding-top: 15vh;
+}
+.contact-form-header{
+  font-size: 3.5rem;
+  font-family: 'Roboto Mono';
+  text-transform: uppercase;
+  text-align: center;
+}
+.contact-form-grp{
+  padding: 5vh;
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+.form-fields{
+  border-radius: 25px;
+  padding: 6vh;
+  width: 50%;
+  display: inline-block;
+}
+.inp{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #1C1B28;
+}
+.sbmt{
+  width: 100%;
+  padding: 10px;
+  background-color: #ee5007;
+  border-radius: 15px;
+  font-size: 25px;
+}
+
 
   
 @media only screen and (max-width: 600px) {
