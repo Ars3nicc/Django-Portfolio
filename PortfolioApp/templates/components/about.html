@@ -1,0 +1,190 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/about-me.css' %}">
+<div>
+    <div class="container">
+        <h1 class="page-title">ABOUT ME</h1>
+    </div>
+    <div class="background">
+        <div class="container-fluid">
+            <section class="about">
+                <div class="main">
+                    <img class="user" src="{% static 'img/author/my_finale.png' %}">
+                    <div class="author">
+                        <div class="author-name">
+                            <h3>FRANZ MANRIQUE</h3>
+                        </div>
+                        <div class="author-description">
+                            Graduate student of Bachelor of Science in Information Technology with specialization in Web
+                            Applications.
+                        </div>
+
+                        <div class="qualifciation">
+                            <header class="qualifciation-header">Skills and Qualifications</header>
+                            <ul class="qualification-blt">
+                                <li>✅ 4 Years experience in Web Development</li>
+                                <li>✅ Proficient frontend development services</li>
+                                <li>✅ Proactives for managerial tasks and leadership roles</li>
+                                <li>✅ Familiarity and practiced backend development</li>
+                                <li>✅ Progressive documentation of projects</li>
+                                <li>✅ Creativeness for designing</li>
+                                <li>✅ Actively supervising and managing projects</li>
+
+                            </ul>
+                            
+                        </div>
+                        <div class="cv-btn">
+                            <a href="img/file/cv_MANRIQUE_latest.pdf" class="cv-link" target="_blank">Check my CV!</a>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="stack">
+                    <div class="stack-div">
+                        <header class="stack-hdr">Tech Stacks</header>
+                        <div class="stack-tools">
+                            <div class="tool">
+                                HTML, CSS, Javascript
+                            </div>
+                            <div class="tool">
+                                Python, C++
+                            </div>
+                            <div class="tool">
+                                ReactJS, Laravel, Django
+                            </div>
+                            <div class="tool">
+                                PostgreSQL, MySQL
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stack-div">
+                        <header class="stack-hdr">Design & Planning Stacks</header>
+                        <div class="stack-tools">
+                            <div class="tool">
+                                Trello
+                            </div>
+                            <div class="tool">
+                                Google Workspaces
+                            </div>
+                            <div class="tool">
+                                Figma
+                            </div>
+                            <div class="tool">
+                                Bootstrap
+                            </div>
+                            <div class="tool">
+                                Media Genesis
+                            </div>
+                            <div class="tool">
+                                Adobe XD
+                            </div>
+                            <div class="tool">
+                                Tailwind
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stack-div">
+                        <header class="stack-hdr">Documentation Stacks</header>
+                        <div class="stack-tools">
+                            <div class="tool">
+                                Visual Studio Code
+                            </div>
+                            <div class="tool">
+                                Sublime Text
+                            </div>
+                            <div class="tool">
+                                Github
+                            </div>
+                            <div class="tool">
+                                Notion
+                            </div>
+                            <div class="tool">
+                                Scribe
+                            </div>
+                            <div class="tool">
+                                Notepad++
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </section>
+    </div>
+    </div>
+
+
+    <!-- WORK EXPERIENCE -->
+
+    <div class="container">
+        <h1 class="page-title">Work Experience</h1>
+    </div>
+
+    <div class="container-fluid">
+        <section class="work-container">
+            <div class="work-main">
+                <img class="caap-logo" src="{%static 'img/author/caap_logo.png'%}">
+                <div class="work-desc">
+                    <header class="desc-head">Civil Aviation Authority of the Philippines</header>
+                    <p class="desc-job">Computer Programmer/IT Technical Support</p>
+                    <p class="job-year">August 2023 - Present</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <!-- EDUCATION BACKGROUND -->
+    <div class="container">
+        <h1 class="page-title">Educational Background</h1>
+    </div>
+
+    <div class="container-fluid">
+        <section class="myschool">
+            <div class="school-details">
+                <div class="academics">
+                    <p class="school-name">Manuel S. Enverga University Foundation</p>
+                    <p class="course">
+                        Bachelor of Science in Information Technology
+                        <br>
+                        <span style="font-style: italic; font-size: 1.2rem;">Specialization in Web and Mobile
+                            Development</span>
+                    </p>
+                    <p class="year">2019-2023</p>
+                    <div class="school-website">
+                        <p class="link-desc">Visit the official MSEUF Website</p>
+                        <div class="button-container">
+                            <a href="https://mseuf.edu.ph"><button class="button">Visit!</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <img class="logo" src="{%static 'img/author/mseuf-logo.png'%}">
+
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Curriculum Vitae Download section -->
+    
+
+    <section class="add-info">
+        <div class="info-title">Here's My Contact Information</div>
+        <div class="info-main">
+            <div class="info-details">
+                <div class="contact">franzmanrique2121@gmail.com</div>
+            </div>
+            <br>
+            <div class="info-details">
+                <div class="contact">+63 916 630 2417 (GLOBE)</div>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+{% endblock content %}
+    

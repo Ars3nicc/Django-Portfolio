@@ -1,0 +1,484 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&display=swap");
+
+/* HOME PAGE */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", "sans serif";
+  color: #fff5e1;
+}
+body {
+  background-color: #2f2e41;
+  width: 100%;
+}
+span {
+  color: #ee5007;
+}
+.bxs-brush-alt{
+  font-size: 50px;
+}
+.text {
+  color: #fcfc;
+  font-size: 1.5rem;
+}
+.cyan {
+  color: #329da0;
+}
+.white {
+  color: #fff5e1;
+}
+
+.button {
+  background-color: #ee5007;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+  font-size: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.button:hover {
+  background-color: transparent;
+  border: 2px solid #ee5007;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  padding: 10px 55px;
+}
+
+.silkscreen {
+  font-family: "Silkscreen";
+}
+
+.section-header {
+  padding-top: 2rem;
+  margin-bottom: 15px;
+  color: white;
+  text-shadow: 4px 4px #ee5007;
+  padding-left: 5vh;
+  font-size: 7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 6rem;
+}
+
+/* SERVICES SECTION */
+.services-sect{
+  background-color: #1C1B28;
+  padding: 40px;
+}
+.services-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services-main{
+  display: flex;
+  gap: 5rem;
+}
+.services-hdr{
+  flex-wrap: wrap;
+  text-transform: uppercase ;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 4rem;
+  font-size: 4rem;
+  text-shadow: 7px 4px #0c0b11;
+}
+.services-context{
+  width: 100%;
+  text-align: justify;
+}
+
+/* FIRST SECTION */
+.about {
+  width: 100%;
+  max-width: 100%;
+  padding: 100px 0px;
+}
+
+.about img {
+  height: auto;
+  width: 350px;
+  border-radius: 100%;
+}
+
+.user {
+  box-shadow: 30px 40px 0px 0px #ee5007;
+}
+
+.about-content {
+  width: 600px;
+}
+.main {
+  flex-wrap: wrap;
+  width: 1130px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-content h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.about-content h1 {
+  color: #329da0;
+  font-weight: bold;
+  font-size: 60px;
+}
+.about-content {
+  padding: 25px 0;
+  color: #fff5e1;
+}
+.find-out {
+  margin-top: 5vh;
+  padding-bottom: 3vh;
+  font-style: italic;
+}
+
+
+.section {
+  background-color: #575669;
+  padding: 20px;
+  margin: 5vh;
+  border-radius: 5vh;
+}
+
+.section-content {
+  display: flex;
+  gap: 10vh;
+  align-items: center;
+}
+
+/* #dig-art{
+  background: url("/static/img/art/digital-art.jpg") 150% -20% no-repeat;
+} */
+.section-image {
+  height: auto;
+  width: 70vh;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: margin 0.2s ease-in-out;
+}
+
+
+.section-text-content {
+  display: block;
+}
+
+.content-title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.content-description {
+  padding-top: 20px;
+  width: 90%;
+  text-align: justify;
+  color: #fcfc;
+}
+
+.button-container {
+  margin-top: 10vh;
+}
+
+.go-to-button {
+  background-color: #ee5007;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 10px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.go-to-button:hover {
+  background-color: #f86e2e;
+  border: 2px solid #ee5007;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  padding: 10px 50px;
+}
+
+/* SKILLS AND TRAITS */
+.skills-content {
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 20px 0;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+#art{
+  background-image: url("/static/img/art/monster-artist.jpg") 100% 0 no-repeat;
+}
+
+.skills-header {
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
+  font-size: 3.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.skills-card {
+  height: 450px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #575669;
+  border-radius: 20px;
+  margin: 15px;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.4s;
+  border-bottom: solid 12px #ee5007;
+}
+
+.skills-card:hover {
+  border-bottom: solid 12px #07d2ee;
+  box-shadow: #07d2ee 0px 5px 15px;
+  transform: scale(1.05);
+}
+
+.skills-card img {
+  height: auto;
+  width: 200px;
+  padding: 20px 0;
+  align-items: center;
+  background: inherit;
+}
+.skills-title {
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  background: inherit;
+  font-weight: bold;
+}
+.skills-description {
+  color: #fcfc;
+  font-size: 1rem;
+  text-align: justify;
+}
+.card .button {
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 22px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.skills-card.button:hover {
+  background-color: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+
+/* 3D ANIMATED BUTTON*/
+.anim-button {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.anim-button a {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ee5007;
+  display: block;
+  position: relative;
+  padding: 15px 20px;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #a54418;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #a54418;
+  box-shadow: inset 0 1px 0 #ffe5c4, 0 10px 0 #a54418;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.anim-button a:active {
+  top: 10px;
+  background-color: #ee5007;
+
+  -webkit-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #ffe5c4, inset 0 -3px 0 #915100;
+}
+
+.anim-button:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2b1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+.work-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 5vh;
+    border-radius: 10px;
+    
+  }
+
+  .work-btn{
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #04246c;
+    border: none;
+    padding: 10px;
+  }
+  .work-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+  }
+  .caap-logo{
+    width: 300px;
+    height: auto;
+  }
+  .caap-logo:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .4s ease;
+  }
+  .desc-head{
+    padding: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffff;
+    border-radius: 10px;
+    background-color: #575669;
+    /* text-shadow: 2px 2px #ffff; */
+  }
+  .desc-job{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    color: #ffff;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+  }
+  .job-year{
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+
+  
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .user {
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+  }
+
+  .section-header {
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 4px 4px #ee5007;
+  }
+
+  .about:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+
+  .art-title {
+    text-align: center;
+  }
+
+  .my-art-text_content {
+    text-align: center;
+  }
+
+  .work-main{
+    display: block;
+  }
+  .caap-logo{
+    display: flex;
+    justify-content: center;
+  }
+  .desc-head{
+    margin-top: 3vh;
+    text-align: center;
+    font-size: 2rem;
+  }
+  .desc-job{
+    text-align: center;
+  }
+  .section-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .section-text-content{
+    text-align: center;
+  }
+  .section-image{
+    width: 350px;
+    height: auto;
+
+  }
+  .services-main{
+    display: block; 
+  }
+  .services-hdr{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .services-context{
+    padding-top: 50px;
+  }
+
+  .content-description{
+    text-align: center;
+  }
+  .exp-link{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+}

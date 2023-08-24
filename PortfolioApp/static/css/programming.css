@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'sans serif';
+    color: #FFF5E1;
+  }
+body{
+    background-color: #2F2E41;
+}
+
+.page-header{
+    padding: 5vh;
+    font-weight: bold;
+    text-shadow: 4px 4px #EE5007;
+    text-align: center;
+}
+
+.page-subtitle{
+    color: #fcfc;
+    text-align: center;
+}
+
+.project-container{
+    display: flex;
+    margin: 6vh;
+    width: 90%;
+    align-items: center;
+    background-color: #575669;
+}
+
+.project-img{
+    height: auto;
+    width: 280px;
+}
+
+.page-header{
+    font-size: 3rem;
+}
+
+.project-details{
+    display: block;
+    margin-left: 5vh;
+    padding: 2vh;
+}
+.project-title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px #EE5007;
+}
+
+.project-desc{
+    margin-top: 3vh;
+    width: 100%;
+}
+
+
+
+.project-date{
+    font-style: italic;
+    color: #fcfc;
+}
+
+.bx{
+    font-size: 1.5rem;
+}
+
+.btn-set{
+    text-decoration: none;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 3vh;
+	background-color: #EE5007;
+	color: white;
+	border: 2px solid transparent;
+	padding: 10px 30px;
+	border-radius: 10px;
+	transition: .4s; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.button:hover{
+	background-color: transparent;
+	border: 2px solid #EE5007;
+	cursor: pointer;
+    font-weight: bold;;
+    color: white;
+    padding: 10px 55px;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    transition: opacity 2s, visibility 2s;
+  }
+  
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #ee5007;
+    border-radius: 50%;
+    animation: loading 2s ease infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  
+
+@media screen and (max-width: 970px) {
+    body{
+        display: block;
+    }
+    .page-header{
+        text-align: center;
+    }
+    .project-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-img{
+        display: block;
+        margin: 0 auto;
+        padding: 2vh;
+    }
+    .project-details{
+        margin: 0;
+    }
+    .project-title{
+        text-align: center;
+    }
+    .project-date{
+        text-align: center;
+    }
+    .project-desc{
+        text-align: justify;
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+    }
+
+}

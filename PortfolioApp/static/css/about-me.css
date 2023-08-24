@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Lato&family=Plus+Jakarta+Sans:ital,wght@0,700;1,400&family=Poppins:ital,wght@0,400;0,600;0,700;1,300;1,600;1,700&family=Ubuntu&family=Work+Sans&display=swap');
+
+/* ABOUT ME PAGE */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', 'sans serif';
+    color: #FFF5E1;
+  }
+body{
+      margin-top: auto;
+      background-color: #2F2E41;
+}
+
+.page-title{
+  padding: 35px 0px;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 6px 6px #ee5007;
+}
+
+.genre-text{
+  word-wrap: break-word;
+  color: #fcfc;
+}
+
+.background{
+  background-color: #575669;
+}
+.about{
+  width: 100%;
+  max-width: 100%;
+  padding: 50px 0px;
+  
+}
+.user{
+  height: 400px;
+  width: auto;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.author{
+  padding-top: 15px;
+  width: 550px;
+}
+
+
+.main{
+  flex-wrap: wrap;
+  width: 1130px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.author-name h3{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #07D2EE;
+  text-transform: uppercase;
+  /* text-shadow: -3px 3px 0px #EE5007, -5px 5px 5px rgb(0 0 0 / 60%); */
+}
+.about h1{
+  color: #329DA0;
+  font-weight: bold;
+  font-size: 60px;
+}
+.text{
+  padding-top: 20px;
+}
+.author-description{
+  margin-top: 2vh;
+  text-align: justify;
+  color: #fcfc;
+  font-style: italic;
+}
+.qualifciation{
+  margin-top: 2vh;
+}
+.qualifciation-header{
+  font-weight: bold;
+  font-size: 2rem;
+}
+.qualification-blt{
+  margin-top: 2vh;
+}
+.qualification-blt li{
+  list-style: none;
+  color: #fcfc;
+}
+
+.stack{
+  margin-left: 35vh;
+  margin-top: 4vh;
+}
+.stack-div{
+  padding: 15px;
+}
+.stack-hdr{
+  font-size: 5vh;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 3px 2px #EE5007;
+}
+.stack-tools{
+  display: flex;
+  gap: 3vh;
+}
+.tool{
+  padding: 10px;
+  border: 2px solid #2F2E41;
+  border-radius: 10px;
+}
+
+
+
+.section-header{
+  text-align: center;
+  font-weight: 900;
+
+}
+
+.box-title{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 40px;
+  color: #EE5007;
+}
+
+.box-title2{
+  text-align: center;
+  font-size: 40px;
+  color: #EE5007;
+}
+
+.box{
+	display: flex;
+  flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+
+.myschool{
+  width: 100%;
+  
+}
+
+.myschool img{
+  height: auto;
+  width: 500px;
+}
+
+.school-details{
+  display: flex;
+  align-items: center;
+  gap: 10vh;
+  justify-content: center;
+}
+
+.academics{
+  display: block;
+  background-color: #575669;
+  padding: 6vh;
+  border-radius: 5px;
+  width: 50%;
+}
+
+
+
+.school-website{
+  display: block;
+  margin-top: 5vh;
+}
+
+
+.school-name{
+  display: block;
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #DF2D2D;
+  font-weight: bold;
+  text-shadow: 2px 2px #ffff;
+}
+
+.course{
+  font-size: 1.4rem;
+  color: #fcfc;
+  
+}
+
+.link-desc{
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.button{
+	background-color: #DF2D2D;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	padding: 10px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 7vh;
+}
+.button:hover{
+	background-color: transparent;
+	border: 2px solid #DF2D2D;
+	cursor: pointer;
+    font-weight: bold;;
+    color: #DF2D2D;
+    padding: 10px 55px;
+}
+
+.logo-title{
+  padding: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.cv-btn{
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #EE5007;
+  width: 50%;
+  text-align: center;
+  color: #ffff;
+  text-decoration: none;
+}
+.cv-link{
+  text-emphasis: none;
+  color: #ffff;
+}
+
+.info-main{
+  padding: 20px 0px;
+}
+.add-info{
+  padding: 7vh;
+}
+
+.info-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.info-details{
+  text-align: center;
+  background-color: #575669;
+  padding: 10px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.work-container{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 5vh;
+  border-radius: 10px;
+  background-color: #575669;
+}
+.work-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+}
+.caap-logo{
+  width: 300px;
+  height: auto;
+}
+.desc-head{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffff;
+  line-height: 2.7rem;
+}
+.desc-job{
+  font-size: 1.3rem;
+  margin-top: 10px;
+  color: #ffff;
+  padding: 10px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #848c98;
+  text-align: center;
+}
+.job-year{
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+
+@media screen and (max-width: 970px) {
+  body{
+    display: block;
+  }
+  .author{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .author-name{
+    text-align: center;
+  }
+
+  .school{
+    text-align: center;
+  }
+
+  .cv-link{
+    width: 100%;
+  }
+
+  .info-details{
+    width: 100%;
+  }
+
+  .page-title{
+    font-size: 1.7rem;
+  }
+}

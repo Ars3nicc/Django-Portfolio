@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+<body>
+    <!-- About section -->
+    <section class="about">
+        <div class="main">
+            <div class="about-content">
+                <h3>Hi! I'm</h3>
+                <h1><span class="input cyan"></span></h1>
+                <div class="text">
+                    BS Information Technology • Web Developer • Project Manager • Graphic Artist
+                </div>
+                <div class="find-out">Find out more!</div>
+                <a href="about-me.html" class="about-link"><button type="button" class="button">About Me</button></a>
+            </div>
+            <img class="user" src="{% static 'img/svg/firmware.svg' %}">
+        </div>
+    </section>
+
+    <section class="services-sect">
+        <div class="services-main">
+            <div class="services-hdr">
+                What <span style="color: #ee5007;">contributions</span> can i offer?
+            </div>
+            <div class="services-context">
+                <i class='bx bxs-quote-alt-left bx-lg'></i>
+                With my capacity to handle a number of languages and frameworks, I am able to provide and much likely to
+                construct a full-stack website but limited to the given timeline. I am also well-experienced when handling group
+                project documentation and production of source code for each projects.
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <header class="section-header">Portfolio <span style="color: #ee5007;text-shadow: 4px 4px #ffff;">Collection</span>
+    </header>
+    <!-- Programming section -->
+    <div class="section">
+        <div class="section-content">
+            <img class="section-image" src="{% static 'img/author/programming.jpg' %}" alt="">
+            <div class="section-text-content">
+                <div class="content-title">Programming Projects </div>
+                <p class="content-description">
+                    Programming projects that are finished and deployed. These are compilation of both academic and
+                    personal projects that were made during my days as an IT student.
+                </p>
+                <div class="button-container">
+                    <a href="programming.html">
+                        <button class="button">
+                            <i class='bx bx-code-alt' ></i>
+                            &nbsp&nbsp
+                            Go to Projects
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="section">
+        <div class="section-content" id="dig-art">
+            <img class="section-image" src="{% static 'img/art/digital-art.jpg' %}" alt="">
+            <div class="section-text-content">
+                <div class="content-title">Graphic Illustration Artworks </div>
+                <p class="content-description">
+                    My world in its artistic realm. See my personal collections of existing graphical illustrations and
+                    artworks that have been done for
+                    the past years.
+                </p>
+                <div class="button-container">
+                    
+                    <a href="elf-category.html">
+                        <button class="button">
+                            <i class='bx bxs-brush-alt bx-sm'></i>
+                            &nbsp&nbsp
+                            Go to Projects
+
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Skills section -->
+    <div class="section-header">Skills & Traits</div>
+    <section>
+        <div class="box">
+            <div class="skills-card" id="art">
+                <img src="{%static 'img/svg/monster-artist.svg' %}">
+                <div class="skills-title">Artistic Mastery</div>
+                <div class="skills-description">
+                    Experienced with the fundamentals of art such as color, composition, value, form, brushwork,
+                    schemas, and perspective.
+                </div>
+            </div>
+
+            <div class="skills-card">
+                <img src="{%static 'img/svg/coding.svg' %}">
+                <div class="skills-title">Programming</div>
+                <div class="skills-description">
+                    Applied practices from BS Information Technology courses. Experienced with particular programming
+                    languages such as ReactJS, Javascript, HTML, CSS, VuesJS, Python, PHP, C, etc.
+
+                </div>
+            </div>
+
+            <div class="skills-card">
+                <img src="{% static 'img/svg/business-plan.svg' %}">
+                <div class="skills-title">Project Planning</div>
+                <div class="skills-description">
+                    Organization of backlogs and plannings. Setting standards of visioned projects to be deployed or
+                    reviewed to maintain smooth progression of the timeline.
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    </script>
+    <!-- TYPING ANIMATION SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> <!-- Script source cdn -->
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Franz Manrique", "A UI/UX Designer", "A Digital Artist", "A Project Manager"], // Given strings that the script will type
+            typeSpeed: 70, // Speed of typing
+            backSpeed: 60, // Speed of reset from typing
+            loop: true // Typing will loop forever
+        })
+    </script>
+
+
+</body>
+{% endblock %}
+    
