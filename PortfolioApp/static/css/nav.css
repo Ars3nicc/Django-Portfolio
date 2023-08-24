@@ -21,6 +21,7 @@ nav{
 .sticky + .content {
   padding-top: 60px;
 }
+
 nav:hover{
   background-color: #242526;
   transition: .4s;
