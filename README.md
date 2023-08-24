@@ -19,7 +19,7 @@ Polished and rendered using Django framework. This version of portfolio can now 
 ## Features
 > Portfolio components which includes particular features that enables an interactive approach to the design interface.
 ### Email request using SMTP
-![SMTP Concept Map](screentshot/SMTP.webp.)
+![SMTP Concept Map](https://global-uploads.webflow.com/5ebea55066f36f531dec5b32/64cc4a7945d018fd927a9d88_2.webp)
 
 
 
