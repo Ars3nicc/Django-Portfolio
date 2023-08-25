@@ -19,6 +19,7 @@ For example, the previouse version of the portfolio consisted numerous design fl
 7. Implement React components for front-end UI/UX design.
 8. Implement cookies and tokens
 9. Improve page responsiveness using media queries and bootstrap
+10. ~~Deployment to a server~~
 
 ## Features
 > Portfolio components which includes particular features that enables an interactive approach to the design interface.
@@ -40,7 +41,28 @@ EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 ```
 
+## Djano Web Hosting Server
+> Exclusively used a python-based deployment server
+### PythonAnywhere
+A web hosting service that enables python projects to be streamlined live.
+![PythonAnywhere Server](https://www.fullstackpython.com/img/logos/pythonanywhere.jpg)
 
+Parsing the project's directory and particular files from `wsgi.py`.
+```
+path = '/home/arsenicxxx/Django-Portfolio'
+if path not in sys.path:
+    sys.path.append(path)
+#
+os.environ['DJANGO_SETTINGS_MODULE'] = 'Portfolio_Django.settings'
+#
+## then:
+from django.core.wsgi import get_wsgi_application
+application = get_wsgi_application()
+```
+File directory for static urls to activate CSS libraries and assets
+| URL | Directory |
+| --- | --- |
+| /static/ | /home/arsenicxxx/Django-Portfolio/static  |
 
 # How to run application
 > Follow the simple steps below to build the necessary libraries and components for the application.
@@ -60,9 +82,6 @@ Run the Django local server
 ```
 python manage.py runserver
 ```
-
-
-
 
 ## For any other informations or inquiry, send me an email
 >Primary email address
