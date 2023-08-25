@@ -42,6 +42,7 @@ EMAIL_USE_SSL = False
 ```
 
 ## Djano Web Hosting Server
+>[!Note]
 > Exclusively used a python-based deployment server
 ### PythonAnywhere
 A web hosting service that enables python projects to be streamlined live.
@@ -82,7 +83,10 @@ Run the Django local server
 ```
 python manage.py runserver
 ```
-
+# Visit the live page
+>[!WARNING]
+>If server is down, it will be caused from a sleeping server
+[My E-Portfolio Website](http://arsenicxxx.pythonanywhere.com)
 ## For any other informations or inquiry, send me an email
 >Primary email address
 `franzmanrique2121@gmail.com`
