@@ -96,8 +96,7 @@ body{
   color: #fcfc;
 }
 .stack-sect{
-  display: flex;
-  justify-content: center;
+
   /* border-bottom: 2px solid #ee5007; */
 }
 .stack-hdr{
@@ -326,9 +325,12 @@ a{
 }
 
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 600px) {
   body{
     display: block;
+  }
+  .page-title{
+    font-size: 5rem;
   }
   .author{
     display: flex;
@@ -340,7 +342,20 @@ a{
     text-align: center;
   }
 
-  .school{
+  .tools-div{
+    display: block;
+  }
+  .work-main{
+    display: block;
+  }
+
+  .school-details{
+    width: 100%;
+    display: block;
+  }
+
+  .school-name{
+    font-size: 3rem;
     text-align: center;
   }
 
@@ -355,4 +370,5 @@ a{
   .page-title{
     font-size: 1.7rem;
   }
+
 }

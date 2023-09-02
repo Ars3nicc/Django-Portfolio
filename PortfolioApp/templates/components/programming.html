@@ -1,0 +1,99 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/programming.css'%}" />
+<div>
+    <header class="page-header">Official Website Projects</header>
+    <p class="page-subtitle">Project source codes are currently stored at Github repository as its temporary portolio
+        storage for future projects</p>
+    <div class="container-fluid">
+        <div class="project-container">
+            <img class="project-img" src="{% static 'img/programming/certinize.png' %}" />
+            <div class="project-details">
+                <div class="project-title">Blockchain-enabled E-Certificate Issuance and Verification System</div>
+                <div class="project-date">12/10/2022</div>
+                <div class="project-desc">
+                    An e-Certificate issuance and verification system which integrates blockchain application such as
+                    smart
+                    contracts, NFTs, Wallet Private Keys, etc. as its cutting-edge form of mid-to-high end technological
+                    security
+                    and data integrity.
+                </div>
+
+                <div class="button-container">
+                    <a class="btn-set" href="https://github.com/certinize"><button class="button"><i
+                                class='bx bx-right-arrow-alt'></i>Go to full project</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <img class="project-img" src="{% static 'img/programming/barkadapp.png' %}" />
+            <div class="project-details">
+                <div class="project-title">Barkadapp Online Bidding</div>
+                <div class="project-date">12/16/2022</div>
+                <div class="project-desc">
+                    An online polling and bidding service enabling as decision matrix for the barkada. Using PHP
+                    language and
+                    Laravel Framework, bidding inputs by users
+                    will display and let the group decide on the majority of the choices.
+                </div>
+
+                <div class="button-container">
+                    <a class="btn-set" href="https://github.com/Ars3nicc/barkadapp-laravel"><button class="button"><i
+                                class='bx bx-right-arrow-alt'></i>Go to full project</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <img class="project-img" src="{% static 'img/programming/blizart.png' %}" />
+            <div class="project-details">
+                <div class="project-title">blizArt Image Galleria</div>
+                <div class="project-date">07/27/2022</div>
+                <div class="project-desc">
+                    Mobile application using Kotlin and Android studio. This app enables online storage from Firebase
+                    database for
+                    art galleries and
+                    display features upon upload.
+                </div>
+
+                <div class="button-container">
+                    <a class="btn-set" href="https://github.com/Ars3nicc/blizART"><button class="button"><i
+                                class='bx bx-right-arrow-alt'></i>Go to full project</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-container">
+            <img class="project-img" src="{% static 'img/ojt/caap_logo.png' %}" />
+            <div class="project-details">
+                <div class="project-title">CAAP Airport Project Monitoring</div>
+                <div class="project-date">05/24/2023</div>
+                <div class="project-desc">
+                    A project monitoring application that enables strategic planning and archiving for future airport
+                    projects.
+                </div>
+
+                <div class="button-container">
+                    <a class="btn-set" href=""><button class="button"><i class='bx bx-right-arrow-alt'></i>Go to full
+                            project</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="error-message">
+          <img class="center" src="img/svg/bug-fix.svg" alt="">
+          <h1 class="txt-center">Sorry this page is not yet available</h1>
+          <div class="go-back">
+              <a href="index.html">
+                  <button class="dl-btn">Back to Homepage</button> 
+              </a>
+          </div>
+  
+      </div> -->
+    <!-- <div class="loader"></div> -->
+</div>
+{% endblock content %}

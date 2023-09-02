@@ -27,6 +27,14 @@ def home(request):
     return render(request, 'components/home.html')
 def commission(request):
     return render(request, 'components/404.html')
+
+def programming_projects(request):
+    return render(request, 'components/programming.html')
+
+def art_projects(request):
+    return render(request, 'components/404.html')
+
+
 def aboutus(request):
     return render(request, 'components/about.html')
 
